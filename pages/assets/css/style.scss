@@ -1,0 +1,27 @@
+.form-control {
+  &:focus {
+    border-color: #063cec;
+    box-shadow: none;
+  }
+}
+
+.table-data-transaksi-pay {
+  thead {
+    th {
+      color: black;
+    }
+  }
+  tbody {
+    td {
+      color: black;
+    }
+  }
+}
+
+.table-detail-transaksi {
+  table {
+    color: black;
+    border-top: 1px solid #e3e6f0;
+    border-bottom: 1px solid #e3e6f0;
+  }
+}

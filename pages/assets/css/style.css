@@ -1,0 +1,20 @@
+.form-control:focus {
+  border-color: #063cec;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.table-data-transaksi-pay thead th {
+  color: black;
+}
+
+.table-data-transaksi-pay tbody td {
+  color: black;
+}
+
+.table-detail-transaksi table {
+  color: black;
+  border-top: 1px solid #e3e6f0;
+  border-bottom: 1px solid #e3e6f0;
+}
+/*# sourceMappingURL=style.css.map */

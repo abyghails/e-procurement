@@ -1,0 +1,18 @@
+body {
+  color: #2c2c2c;
+}
+
+.title {
+  display: flexbox;
+  margin: 50px auto;
+}
+.title h4 {
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 8px double #2c2c2c;
+}
+
+.table table {
+  margin: 0, auto;
+  width: 100%;
+}
