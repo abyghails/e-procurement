@@ -1,9 +1,9 @@
 <?php
 if ($_SESSION["login"] !== "login") {
 	header("location: ../index.php");
-} else if ($_SESSION["level"] !== 'A') {
+} else if ($_SESSION["level"] !== 'A' && $_SESSION["level"] !== 'P') {
 	header("location: ?page=home");
-}
+};
 require_once "../proses/koneksi/koneksi.php";
 $items = query("SELECT * FROM users WHERE level = 'D'");
 ?>

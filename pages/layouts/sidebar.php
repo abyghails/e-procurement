@@ -41,44 +41,45 @@
 					</div>
 				</div>
 			</li> -->
+			<?php if ($_SESSION["level"] == "A" || $_SESSION["level"] == "P") { ?>
+				<!-- Nav Item - menu -->
+				<li class="nav-item">
+					<a class="nav-link" href="?page=data-admin">
+						<i class="fas fa-fw fa-user"></i>
+						<span>Data Admin</span></a>
+				</li>
 
-			<!-- Nav Item - menu -->
-			<li class="nav-item">
-				<a class="nav-link" href="?page=data-admin">
-					<i class="fas fa-fw fa-user"></i>
-					<span>Data Admin</span></a>
-			</li>
+				<!-- Nav Item - menu -->
+				<li class="nav-item">
+					<a class="nav-link" href="?page=data-pelaksana">
+						<i class="fas fa-fw fa-users"></i>
+						<span>Data Pelaksana</span></a>
+				</li>
 
-			<!-- Nav Item - menu -->
-			<li class="nav-item">
-				<a class="nav-link" href="?page=data-pelaksana">
-					<i class="fas fa-fw fa-users"></i>
-					<span>Data Pelaksana</span></a>
-			</li>
+				<li class="nav-item">
+					<a class="nav-link" href="?page=data-direksi">
+						<i class="fas fa-fw fa-users"></i>
+						<span>Data Direksi</span></a>
+				</li>
 
-			<li class="nav-item">
-				<a class="nav-link" href="?page=data-direksi">
-					<i class="fas fa-fw fa-users"></i>
-					<span>Data Direksi</span></a>
-			</li>
+				<li class="nav-item">
+					<a class="nav-link" href="?page=kategori">
+						<i class="fas fa-fw fa-book"></i>
+						<span>Kategori</span></a>
+				</li>
 
-			<li class="nav-item">
-				<a class="nav-link" href="?page=kategori">
-					<i class="fas fa-fw fa-book"></i>
-					<span>Kategori</span></a>
-			</li>
+				<li class="nav-item">
+					<a class="nav-link" href="?page=barang">
+						<i class="fas fa-fw fa-database"></i>
+						<span>Barang</span></a>
+				</li>
 
-			<li class="nav-item">
-				<a class="nav-link" href="?page=barang">
-					<i class="fas fa-fw fa-database"></i>
-					<span>Barang</span></a>
-			</li>
-
-			<li class="nav-item">
-				<a class="nav-link" href="?page=data-pasok">
-					<i class="fas fa-fw fa-briefcase"></i>
-					<span>Data Pasok</span></a>
-			</li>
+				<li class="nav-item">
+					<a class="nav-link" href="?page=data-pasok">
+						<i class="fas fa-fw fa-briefcase"></i>
+						<span>Data Pasok</span></a>
+				</li>
+			<?php } ?>
 
 			<li class="nav-item">
 				<a class="nav-link" href="?page=transaksi">
