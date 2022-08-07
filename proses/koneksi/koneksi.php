@@ -1,8 +1,6 @@
 <?php
 $koneksi = mysqli_connect("localhost", "root", "", "e-procurement");
-/* 
-// $koneksi = mysqli_connect("localhost", "skid2179_procurement", "joker@@@", "skid2179_procurement");
-*/
+// $koneksi = mysqli_connect("localhost", "skip3428_database", "Indonesia12345", "skip3428_procurement");
 if (!$koneksi) {
 	die("Gagal Koneksi") . mysqli_connect_error();
 }
